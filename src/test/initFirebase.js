@@ -4,7 +4,7 @@ import { getAnalytics } from "firebase/analytics";
 import {getAuth} from "firebase/auth";
 import {getFirestore} from "firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyCzDImn9Rl0KAs--MRkOFXnSYnmGWvopJY",
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "uth-website-ccf20.firebaseapp.com",
   databaseURL: "https://uth-website-ccf20-default-rtdb.firebaseio.com",
   projectId: "uth-website-ccf20",
